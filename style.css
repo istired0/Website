@@ -1,0 +1,11 @@
+#headtitle{
+    display: flex;
+    justify-content: center;
+}
+
+#nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+}
+
