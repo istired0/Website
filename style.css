@@ -1,11 +1,43 @@
-#headtitle{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face{
+    font-family: "DM Sans";
+    src: local();
+}
+body{
+    background-color: #E0E0E2;
+    font-family: DM Sans;
+}
+header{
+    position: sticky;
+    top: 0;
+
+}
+#nav{
+    list-style-type: none;
+    background-color: rgb(46, 46, 46);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.navbut{
+    float: left;
+    padding: 14px 16px;
+}
+.navbut a{
+    display: block;
+    color: #E0E0E2;
+    text-align: center;
+    text-decoration: none;
+}
+#navbut4{
+    float: right;
+}
+.navbut:hover{
+    background-color: #6B8F71;
+}
+.projects{
+    display: grid;
     justify-content: center;
 }
-
-#nav{
-    position: sticky;
-    display: flex;
-    justify-content: space-evenly;
-}
-
